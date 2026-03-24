@@ -79,12 +79,6 @@
       <version>${platform.version}</version>
       <scope>test</scope>
     </dependency>
-    <!-- TODO: remove when upgrading to a test framework which does not need commons-lang -->
-    <dependency>
-      <groupId>commons-lang</groupId>
-      <artifactId>commons-lang</artifactId>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
